@@ -2,7 +2,7 @@ Simple web app
 ==============
 
 This is the simple web application to serve as a example for Bebox.
-This sample application is based on [*Ruby on Rails Tutorial: Learn Rails by Example*](http://railstutorial.org/) by [Michael Hartl](http://michaelhartl.com/) and modified to serve as a deployment example for Bebox in conjuction with the bebox_simple_web_app example project.
+This sample application is based on [*Ruby on Rails Tutorial: Learn Rails by Example*](http://railstutorial.org/) by [Michael Hartl](http://michaelhartl.com/) and modified to serve as a deployment example for Bebox in conjuction with the bebox-simple_web_app example project.
 
 How to Use
 ----------
@@ -11,7 +11,7 @@ How to Use
 
 * rbenv
 * ruby version >= 1.9.3
-* a vagrant machine provisioned with the bebox_simple_web_app bebox example project.
+* a vagrant machine provisioned with the bebox-simple_web_app bebox example project.
 
 ###Setup project
 
@@ -54,4 +54,4 @@ or
 ```
 http://node1.server1.test
 ```
-Where *NODE_IP* is by default *192.168.0.81* or the IP addres you configure in the *bebox_simple_web_app*.
+Where *NODE_IP* is by default *192.168.0.81* or the IP addres you configure in the *bebox-simple_web_app*.
