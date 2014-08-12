@@ -4,4 +4,4 @@
 require File.expand_path('../config/application', __FILE__)
 require 'rake'
 
-SimpleWebApp::Application.load_tasks
+SampleRailsAppForBebox::Application.load_tasks

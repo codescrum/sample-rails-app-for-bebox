@@ -1,4 +1,4 @@
-SimpleWebApp::Application.routes.draw do
+SampleRailsAppForBebox::Application.routes.draw do
 
   resources :users do
     member do
