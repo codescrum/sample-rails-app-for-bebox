@@ -13,6 +13,12 @@ How to Use
 * ruby version >= 1.9.3
 * a vagrant machine provisioned with the [bebox-sample-puppet-generated-repo](http://github.com/codescrum/bebox-sample-puppet-generated-repo).
 
+#### Bebox demo
+
+You can see a bebox demo video for a complete example of provisioning a machine with and deploying this application in it.
+
+[![bebox demo video](http://img.youtube.com/vi/mioeMsuKJr4/0.jpg)](http://www.youtube.com/watch?v=mioeMsuKJr4)
+
 ###Setup project
 
     git clone https://github.com/codescrum/sample-rails-app-for-bebox.git
