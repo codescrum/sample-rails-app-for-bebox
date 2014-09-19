@@ -19,6 +19,11 @@ end
 
 namespace :deploy do
 
+  desc "initial setup for the database"
+  task :db_setup do
+    run "cd #{current_path}; bundle exec rake db:setup RAILS_ENV=#{rails_env}"
+  end
+
   desc "Zero-downtime restart of Unicorn"
   task :restart, :except => { :no_release => true } do
     run "kill -s USR2 `cat /tmp/unicorn.simple_web_app.pid`"

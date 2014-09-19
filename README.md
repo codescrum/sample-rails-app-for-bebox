@@ -39,6 +39,7 @@ The first time deploying the app you need in the machine setup directories for t
     cap vagrant deploy:setup
     cap vagrant deploy:update
     cap vagrant gems:bundle
+    cap vagrant deploy:db_setup
     cap vagrant deploy:start
 
 If not (common case) you only need to do:
